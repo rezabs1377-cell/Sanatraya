@@ -1,1083 +1,488 @@
-/*==================================
-صنایع انرژی رایا
-Version 2.0
-==================================*/
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
 
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-}
+<head>
 
-html{
-scroll-behavior:smooth;
-}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-body{
+<title>صنایع انرژی رایا | سیستم های خورشیدی</title>
 
-font-family:Tahoma,sans-serif;
+<meta name="description" content="فروش پنل خورشیدی، باتری، اینورتر، سانورتر و پمپ خورشیدی">
 
-background:#f5f7fa;
+<link rel="stylesheet" href="css/style.css">
 
-color:#222;
+</head>
 
-line-height:1.8;
+<body>
 
-overflow-x:hidden;
+<header>
 
-}
+<div class="container">
 
-img{
+<nav>
 
-max-width:100%;
+<a href="#" class="logo">
+صنایع <span>انرژی رایا</span>
+</a>
 
-display:block;
+<ul class="menu">
 
-}
+<li><a href="#">خانه</a></li>
 
-a{
+<li><a href="#products">محصولات</a></li>
 
-text-decoration:none;
+<li><a href="#about">درباره ما</a></li>
 
-}
+<li><a href="#projects">پروژه ها</a></li>
 
-ul{
+<li><a href="#contact">تماس با ما</a></li>
 
-list-style:none;
+</ul>
 
-}
+</nav>
 
-.container{
+</div>
 
-width:92%;
+</header>
 
-max-width:1350px;
+<section class="hero">
 
-margin:auto;
+<div class="container">
 
-}
-/*==================================
-COLOR VARIABLES
-==================================*/
+<div class="hero-text">
 
-:root{
+<h1>
 
---primary:#0B3D91;
+راهکارهای حرفه‌ای انرژی خورشیدی
 
---secondary:#F4B400;
+</h1>
 
---dark:#111827;
+<p>
 
---light:#F8FAFC;
+تامین و فروش پنل خورشیدی، باتری خورشیدی، اینورتر، سانورتر و پمپ خورشیدی با مشاوره تخصصی.
 
---white:#ffffff;
+</p>
 
---gray:#6B7280;
+<div class="hero-buttons">
 
---shadow:0 10px 30px rgba(0,0,0,.12);
+<a class="btn"
+href="https://wa.me/989334285008">
 
---radius:22px;
+استعلام قیمت
 
-}
+</a>
 
-/*==================================
-HEADINGS
-==================================*/
+<a class="btn-outline"
+href="#products">
 
-h1{
+مشاهده محصولات
 
-font-size:52px;
+</a>
 
-font-weight:800;
+</div>
 
-line-height:1.3;
+</div>
 
-color:var(--primary);
+<div class="hero-image">
 
-}
+<img src="images/hero.jpg"
+alt="انرژی خورشیدی">
 
-h2{
+</div>
 
-font-size:38px;
+</div>
 
-margin-bottom:18px;
+</section>
+<!-- =========================
+     PRODUCTS
+========================= -->
 
-color:var(--primary);
+<section id="products">
 
-}
+<div class="container">
 
-h3{
+<h2 class="title">محصولات ما</h2>
 
-font-size:26px;
+<p class="subtitle">
+تجهیزات تخصصی انرژی خورشیدی برای مصارف خانگی، صنعتی و کشاورزی
+</p>
 
-margin-bottom:12px;
+<div class="cards">
 
-}
+<div class="card">
 
-p{
+<img src="images/panel.jpg" alt="پنل خورشیدی">
 
-font-size:18px;
+<div class="card-body">
 
-color:#444;
+<h3>پنل خورشیدی</h3>
 
-}
+<p>
+پنل‌های مونوکریستال و پلی‌کریستال با راندمان بالا برای انواع پروژه‌ها.
+</p>
 
-/*==================================
-BUTTONS
-==================================*/
+<a href="panel.html" class="btn">
+مشاهده محصولات
+</a>
 
-.btn{
+</div>
 
-display:inline-block;
+</div>
 
-padding:16px 34px;
+<div class="card">
 
-background:var(--secondary);
+<img src="images/battery.jpg" alt="باتری خورشیدی">
 
-color:#111;
+<div class="card-body">
 
-font-weight:bold;
+<h3>باتری خورشیدی</h3>
 
-border-radius:50px;
+<p>
+باتری‌های لیتیومی، ژل و AGM مناسب ذخیره انرژی و برق اضطراری.
+</p>
 
-transition:.3s;
+<a href="battery.html" class="btn">
+مشاهده محصولات
+</a>
 
-box-shadow:0 8px 20px rgba(244,180,0,.35);
+</div>
 
-}
+</div>
 
-.btn:hover{
+<div class="card">
 
-transform:translateY(-4px);
+<img src="images/inverter.jpg" alt="اینورتر">
 
-background:#FFD54A;
+<div class="card-body">
 
-}
+<h3>اینورتر و سانورتر</h3>
 
-/*==================================
-SECTION
-==================================*/
+<p>
+انواع اینورتر سینوسی خالص و تجهیزات تبدیل انرژی خورشیدی.
+</p>
 
-section{
+<a href="inverter.html" class="btn">
+مشاهده محصولات
+</a>
 
-padding:90px 0;
+</div>
 
-}
+</div>
 
-.title{
+<div class="card">
 
-text-align:center;
+<img src="images/pump.jpg" alt="پمپ خورشیدی">
 
-margin-bottom:12px;
+<div class="card-body">
 
-}
+<h3>پمپ خورشیدی</h3>
 
-.subtitle{
+<p>
+سیستم‌های پمپ آب خورشیدی برای مصارف کشاورزی و صنعتی.
+</p>
 
-text-align:center;
+<a href="pump.html" class="btn">
+مشاهده محصولات
+</a>
 
-max-width:750px;
+</div>
 
-margin:0 auto 50px;
+</div>
 
-color:#666;
+</div>
 
-line-height:2;
+</div>
 
-}
-/*==================================
-HEADER
-==================================*/
+</section>
+<!-- =========================
+     ABOUT
+========================= -->
 
-header{
+<section id="about">
 
-position:sticky;
+<div class="container">
 
-top:0;
+<h2 class="title">
+درباره صنایع انرژی رایا
+</h2>
 
-z-index:999;
+<p class="subtitle">
+تامین کننده تجهیزات انرژی خورشیدی و برق اضطراری
+</p>
 
-background:rgba(255,255,255,.92);
+<div class="about">
 
-backdrop-filter:blur(14px);
+<div class="about-text">
 
-box-shadow:0 2px 15px rgba(0,0,0,.08);
+<h3>صنایع انرژی رایا</h3>
 
-}
+<p>
 
-nav{
+مجموعه صنایع انرژی رایا با هدف ارائه راهکارهای نوین انرژی خورشیدی، تامین تجهیزات باکیفیت و مشاوره تخصصی فعالیت می‌کند.
 
-height:82px;
+</p>
 
-display:flex;
+<ul class="about-list">
 
-justify-content:space-between;
+<li>✔ فروش پنل خورشیدی</li>
 
-align-items:center;
+<li>✔ فروش باتری خورشیدی</li>
 
-}
+<li>✔ فروش اینورتر و سانورتر</li>
 
-.logo{
+<li>✔ فروش پمپ خورشیدی</li>
 
-font-size:30px;
+<li>✔ مشاوره و پشتیبانی فنی</li>
 
-font-weight:800;
+</ul>
 
-color:var(--primary);
+</div>
 
-}
+<div class="about-image">
 
-.logo span{
+<img src="images/about.jpg" alt="درباره ما">
 
-color:var(--secondary);
+</div>
 
-}
+</div>
 
-.menu{
+<div class="features">
 
-display:flex;
+<div class="feature">
 
-align-items:center;
+<div class="feature-icon">
+☀️
+</div>
 
-gap:35px;
+<h3>تخصص</h3>
 
-}
+<p>
+طراحی و اجرای انواع سیستم‌های خورشیدی.
+</p>
 
-.menu a{
+</div>
 
-font-size:17px;
+<div class="feature">
 
-font-weight:700;
+<div class="feature-icon">
+🔋
+</div>
 
-color:#333;
+<h3>کیفیت</h3>
 
-transition:.3s;
+<p>
+تامین تجهیزات از برندهای معتبر.
+</p>
 
-position:relative;
+</div>
 
-}
+<div class="feature">
 
-.menu a:hover{
+<div class="feature-icon">
+⚡
+</div>
 
-color:var(--primary);
+<h3>پشتیبانی</h3>
 
-}
+<p>
+همراهی مشتری از خرید تا راه‌اندازی.
+</p>
 
-.menu a::after{
+</div>
 
-content:"";
+</div>
 
-position:absolute;
+</div>
 
-bottom:-8px;
+</section>
+<!-- =========================
+     PROJECTS
+========================= -->
 
-right:0;
+<section id="projects">
 
-width:0;
+<div class="container">
 
-height:3px;
+<h2 class="title">پروژه‌های ما</h2>
 
-background:var(--secondary);
+<p class="subtitle">
+نمونه‌ای از پروژه‌های اجرا شده صنایع انرژی رایا
+</p>
 
-transition:.3s;
+<div class="cards">
 
-border-radius:20px;
+<div class="card">
 
-}
+<img src="images/project1.jpg" alt="پروژه اول">
 
-.menu a:hover::after{
+<div class="card-body">
 
-width:100%;
+<h3>نیروگاه خورشیدی</h3>
 
-}
+<p>
+اجرای سیستم خورشیدی برای مصارف خانگی و صنعتی.
+</p>
 
-.menu-btn{
+</div>
 
-display:none;
+</div>
 
-font-size:34px;
+<div class="card">
 
-cursor:pointer;
+<img src="images/project2.jpg" alt="پروژه دوم">
 
-color:var(--primary);
+<div class="card-body">
 
-}
-/*==================================
-MOBILE MENU
-==================================*/
+<h3>برق اضطراری</h3>
 
-@media(max-width:900px){
+<p>
+طراحی و اجرای سیستم UPS و ذخیره انرژی.
+</p>
 
-.menu{
+</div>
 
-position:fixed;
+</div>
 
-top:82px;
+<div class="card">
 
-right:-100%;
+<img src="images/project3.jpg" alt="پروژه سوم">
 
-width:280px;
+<div class="card-body">
 
-height:100vh;
+<h3>پمپ خورشیدی</h3>
 
-background:#fff;
+<p>
+اجرای سیستم پمپ آب خورشیدی برای کشاورزی.
+</p>
 
-display:flex;
+</div>
 
-flex-direction:column;
+</div>
 
-justify-content:flex-start;
+</div>
 
-padding-top:40px;
+</div>
 
-gap:28px;
+</section>
+<!-- =========================
+     CONTACT
+========================= -->
 
-box-shadow:-10px 0 30px rgba(0,0,0,.08);
+<section id="contact">
 
-transition:.4s;
+<div class="container">
 
-}
+<h2 class="title">تماس با ما</h2>
 
-.menu.active{
+<p class="subtitle">
+برای دریافت مشاوره و استعلام قیمت با ما در ارتباط باشید.
+</p>
 
-right:0;
+<div class="contact">
 
-}
+<div class="contact-box">
 
-.menu-btn{
+<h3>اطلاعات تماس</h3>
 
-display:block;
+<p><strong>مدیریت:</strong> مهندس ادیب</p>
 
-}
+<p><strong>تلفن:</strong> 09334285008</p>
 
-}
-/*==================================
-HERO
-==================================*/
+<p><strong>واتساپ:</strong> 09334285008</p>
 
-.hero{
+<p><strong>آدرس:</strong> مشهد، میدان صاحب‌الزمان، مجتمع سبحان، همکف</p>
 
-min-height:92vh;
+</div>
 
-display:flex;
+<div class="contact-box">
 
-align-items:center;
+<h3>استعلام قیمت</h3>
 
-background:linear-gradient(135deg,#f8fbff,#eef6ff);
+<p>
+برای دریافت قیمت و مشاوره رایگان روی دکمه زیر کلیک کنید.
+</p>
 
-}
+<a class="btn"
+href="https://wa.me/989334285008?text=سلام برای استعلام قیمت محصولات صنایع انرژی رایا پیام دادم">
 
-.hero .container{
+ارتباط در واتساپ
 
-display:grid;
+</a>
 
-grid-template-columns:1.1fr .9fr;
+</div>
 
-align-items:center;
+</div>
 
-gap:60px;
+</div>
 
-}
+</section>
 
-.hero-text h1{
+<!-- =========================
+     FOOTER
+========================= -->
 
-font-size:60px;
+<footer>
 
-margin-bottom:25px;
+<div class="container">
 
-line-height:1.25;
+<div class="footer-grid">
 
-}
+<div class="footer-box">
 
-.hero-text p{
+<h3>صنایع انرژی رایا</h3>
 
-font-size:20px;
+<p>
+فروش تجهیزات انرژی خورشیدی، باتری، اینورتر، سانورتر و پمپ خورشیدی
+</p>
 
-line-height:2;
+</div>
 
-margin-bottom:35px;
+<div class="footer-box">
 
-color:#555;
+<h3>دسترسی سریع</h3>
 
-}
+<p><a href="#">خانه</a></p>
 
-.hero-buttons{
+<p><a href="#products">محصولات</a></p>
 
-display:flex;
+<p><a href="#about">درباره ما</a></p>
 
-gap:20px;
+<p><a href="#projects">پروژه‌ها</a></p>
 
-flex-wrap:wrap;
+<p><a href="#contact">تماس با ما</a></p>
 
-}
+</div>
 
-.btn-outline{
+<div class="footer-box">
 
-padding:16px 34px;
+<h3>راه‌های ارتباطی</h3>
 
-border:2px solid var(--primary);
+<p>📞 09334285008</p>
 
-border-radius:50px;
+<p>📍 مشهد، مجتمع سبحان</p>
 
-font-weight:bold;
+</div>
 
-color:var(--primary);
+</div>
 
-transition:.3s;
+<div class="copyright">
 
-}
+تمامی حقوق این سایت متعلق به صنایع انرژی رایا © 2026
 
-.btn-outline:hover{
+</div>
 
-background:var(--primary);
+</div>
 
-color:#fff;
+</footer>
 
-}
+<a class="whatsapp"
+href="https://wa.me/989334285008">
 
-.hero-image{
+💬
 
-display:flex;
+</a>
 
-justify-content:center;
+</body>
 
-}
-
-.hero-image img{
-
-width:100%;
-
-max-width:620px;
-
-border-radius:28px;
-
-box-shadow:0 20px 45px rgba(0,0,0,.15);
-
-}
-
-@media(max-width:900px){
-
-.hero{
-
-padding:60px 0;
-
-}
-
-.hero .container{
-
-grid-template-columns:1fr;
-
-text-align:center;
-
-}
-
-.hero-text h1{
-
-font-size:38px;
-
-}
-
-.hero-text p{
-
-font-size:17px;
-
-}
-
-.hero-buttons{
-
-justify-content:center;
-
-}
-
-.hero-image{
-
-margin-top:35px;
-
-}
-
-}
-/*==================================
-PRODUCTS
-==================================*/
-
-.product-list{
-
-display:flex;
-
-flex-direction:column;
-
-gap:35px;
-
-}
-
-.product-card{
-
-display:grid;
-
-grid-template-columns:420px 1fr;
-
-align-items:center;
-
-background:#fff;
-
-border-radius:24px;
-
-overflow:hidden;
-
-box-shadow:0 15px 35px rgba(0,0,0,.10);
-
-transition:.35s;
-
-}
-
-.product-card:hover{
-
-transform:translateY(-8px);
-
-box-shadow:0 25px 50px rgba(0,0,0,.18);
-
-}
-
-.product-card img{
-
-width:100%;
-
-height:100%;
-
-min-height:320px;
-
-object-fit:cover;
-
-transition:.4s;
-
-}
-
-.product-card:hover img{
-
-transform:scale(1.05);
-
-}
-
-.product-info{
-
-padding:35px;
-
-}
-
-.product-info h3{
-
-font-size:32px;
-
-color:var(--primary);
-
-margin-bottom:15px;
-
-}
-
-.product-info p{
-
-font-size:18px;
-
-line-height:2;
-
-margin-bottom:20px;
-
-}
-
-.product-info ul{
-
-margin-bottom:25px;
-
-padding-right:18px;
-
-}
-
-.product-info li{
-
-margin-bottom:12px;
-
-font-size:17px;
-
-}
-
-@media(max-width:900px){
-
-.product-card{
-
-grid-template-columns:1fr;
-
-}
-
-.product-card img{
-
-min-height:240px;
-
-}
-
-.product-info{
-
-padding:25px;
-
-}
-
-.product-info h3{
-
-font-size:26px;
-
-}
-
-}
-/*==================================
-FEATURES
-==================================*/
-
-.features{
-
-display:grid;
-
-grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-
-gap:30px;
-
-margin-top:50px;
-
-}
-
-.feature{
-
-background:#fff;
-
-padding:35px;
-
-border-radius:24px;
-
-text-align:center;
-
-box-shadow:0 10px 30px rgba(0,0,0,.08);
-
-transition:.35s;
-
-}
-
-.feature:hover{
-
-transform:translateY(-8px);
-
-box-shadow:0 20px 45px rgba(0,0,0,.15);
-
-}
-
-.feature-icon{
-
-width:90px;
-
-height:90px;
-
-margin:auto;
-
-margin-bottom:20px;
-
-display:flex;
-
-align-items:center;
-
-justify-content:center;
-
-font-size:42px;
-
-background:linear-gradient(135deg,#0B3D91,#1976D2);
-
-color:#fff;
-
-border-radius:50%;
-
-}
-
-.feature h3{
-
-margin-bottom:15px;
-
-font-size:24px;
-
-color:var(--primary);
-
-}
-
-.feature p{
-
-font-size:17px;
-
-line-height:1.9;
-
-color:#555;
-
-}
-
-@media(max-width:900px){
-
-.features{
-
-grid-template-columns:1fr;
-
-}
-
-}
-/*==================================
-STATISTICS
-==================================*/
-
-.stats{
-
-background:linear-gradient(135deg,#0B3D91,#1565C0);
-
-padding:90px 0;
-
-color:#fff;
-
-}
-
-.stats-grid{
-
-display:grid;
-
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-
-gap:30px;
-
-}
-
-.stat-box{
-
-background:rgba(255,255,255,.10);
-
-backdrop-filter:blur(10px);
-
-border-radius:22px;
-
-padding:35px;
-
-text-align:center;
-
-transition:.35s;
-
-}
-
-.stat-box:hover{
-
-transform:translateY(-8px);
-
-background:rgba(255,255,255,.18);
-
-}
-
-.stat-number{
-
-font-size:52px;
-
-font-weight:800;
-
-margin-bottom:12px;
-
-color:#FFD54A;
-
-}
-
-.stat-title{
-
-font-size:20px;
-
-font-weight:bold;
-
-margin-bottom:10px;
-
-}
-
-.stat-text{
-
-font-size:16px;
-
-opacity:.9;
-
-line-height:1.8;
-
-}
-
-@media(max-width:900px){
-
-.stats-grid{
-
-grid-template-columns:1fr 1fr;
-
-}
-
-}
-
-@media(max-width:600px){
-
-.stats-grid{
-
-grid-template-columns:1fr;
-
-}
-
-}
-/*==================================
-FOOTER
-==================================*/
-
-footer{
-
-background:#111827;
-
-color:#fff;
-
-padding:70px 0 30px;
-
-}
-
-.footer-grid{
-
-display:grid;
-
-grid-template-columns:2fr 1fr 1fr;
-
-gap:40px;
-
-}
-
-.footer-box h3{
-
-margin-bottom:20px;
-
-color:#FFD54A;
-
-font-size:24px;
-
-}
-
-.footer-box p{
-
-color:#ddd;
-
-margin-bottom:12px;
-
-line-height:2;
-
-}
-
-.footer-box a{
-
-color:#ddd;
-
-transition:.3s;
-
-}
-
-.footer-box a:hover{
-
-color:#FFD54A;
-
-padding-right:8px;
-
-}
-
-.copyright{
-
-margin-top:45px;
-
-padding-top:25px;
-
-border-top:1px solid rgba(255,255,255,.15);
-
-text-align:center;
-
-color:#bbb;
-
-font-size:15px;
-
-}
-
-@media(max-width:900px){
-
-.footer-grid{
-
-grid-template-columns:1fr;
-
-text-align:center;
-
-}
-
-}
-/*==================================
-WHATSAPP FLOAT
-==================================*/
-
-.whatsapp{
-
-position:fixed;
-
-left:25px;
-
-bottom:25px;
-
-width:68px;
-
-height:68px;
-
-background:#25D366;
-
-border-radius:50%;
-
-display:flex;
-
-justify-content:center;
-
-align-items:center;
-
-font-size:34px;
-
-color:#fff;
-
-box-shadow:0 12px 25px rgba(37,211,102,.45);
-
-z-index:999;
-
-transition:.35s;
-
-animation:whatsappFloat 2s infinite;
-
-}
-
-.whatsapp:hover{
-
-transform:scale(1.12);
-
-background:#1ebe5d;
-
-}
-
-@keyframes whatsappFloat{
-
-0%{
-
-transform:translateY(0);
-
-}
-
-50%{
-
-transform:translateY(-8px);
-
-}
-
-100%{
-
-transform:translateY(0);
-
-}
-
-}
-
-@media(max-width:768px){
-
-.whatsapp{
-
-width:60px;
-
-height:60px;
-
-font-size:30px;
-
-left:18px;
-
-bottom:18px;
-
-}
-
-}
-/*==================================
-ANIMATIONS
-==================================*/
-
-.fade-up{
-
-opacity:0;
-
-transform:translateY(50px);
-
-transition:all .8s ease;
-
-}
-
-.fade-up.show{
-
-opacity:1;
-
-transform:translateY(0);
-
-}
-
-.zoom{
-
-overflow:hidden;
-
-}
-
-.zoom img{
-
-transition:.5s;
-
-}
-
-.zoom:hover img{
-
-transform:scale(1.08);
-
-}
-/*==================================
-SCROLLBAR
-==================================*/
-
-::-webkit-scrollbar{
-
-width:10px;
-
-}
-
-::-webkit-scrollbar-track{
-
-background:#ececec;
-
-}
-
-::-webkit-scrollbar-thumb{
-
-background:#0B3D91;
-
-border-radius:20px;
-
-}
-
-::-webkit-scrollbar-thumb:hover{
-
-background:#082d6e;
-
-}
-
-
-/*==================================
-TEXT SELECTION
-==================================*/
-
-::selection{
-
-background:#F4B400;
-
-color:#000;
-
-}
-
-
-/*==================================
-END STYLE
-==================================*/
+</html>
