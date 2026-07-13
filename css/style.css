@@ -528,4 +528,44 @@ margin:auto;
 .card img{
 height:220px;
 }
+/* Mobile overflow fix */
 
+html,
+body{
+overflow-x:hidden;
+}
+
+@media (max-width:768px){
+
+.hero .container{
+display:flex;
+flex-direction:column;
+width:100%;
+gap:30px;
+}
+
+.hero-text,
+.hero-image{
+width:100%;
+max-width:100%;
+}
+
+.hero-text h1{
+font-size:32px;
+word-break:break-word;
+}
+
+.hero-text p{
+font-size:17px;
+}
+
+.hero-buttons{
+display:flex;
+flex-direction:column;
+width:100%;
+}
+
+.hero-buttons .btn,
+.hero-buttons .btn-outline{
+width:100%;
+}
