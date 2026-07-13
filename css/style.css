@@ -486,3 +486,48 @@ href="https://wa.me/989334285008">
 </body>
 
 </html>
+/* Desktop Fix */
+
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+align-items:center;
+}
+
+.contact{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+}
+
+.footer-grid{
+display:grid;
+grid-template-columns:2fr 1fr 1fr;
+gap:40px;
+}
+
+.footer-box h3{
+color:#FFD54A;
+}
+
+footer p,
+footer a{
+color:#ddd;
+}
+
+footer a:hover{
+color:#FFD54A;
+}
+
+@media(max-width:900px){
+
+.about,
+.contact,
+.footer-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
